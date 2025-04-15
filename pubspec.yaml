@@ -1,7 +1,7 @@
 name: editable_table
 description: "A  Flutter package that helps to edit and search in the table."
 version: 0.0.1
-homepage:
+homepage: https://github.com/Sakhildevan/Editable_Table.git
 
 environment:
   sdk: ^3.7.2
@@ -10,6 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_bloc: ^9.1.0
+  flutter_typeahead: ^4.0.0
+ 
 
 dev_dependencies:
   flutter_test:
@@ -20,7 +23,7 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
-flutter:
+#flutter:
 
   # To add assets to your package, add an assets section, like this:
   # assets:
