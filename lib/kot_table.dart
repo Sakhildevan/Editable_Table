@@ -24,12 +24,12 @@ class KotTableWidget extends StatelessWidget {
   // ** the list is hardcoded for now, but it can be replaced with a dynamic list from the database ***/
   // ** the list is used to display the suggestions when the user types in the code field ***/
 
-  final List<MenuItem> menuItems = [
-    MenuItem.fromCode('106'),
-    MenuItem.fromCode('2'),
-    MenuItem.fromCode('3'),
-    MenuItem.fromCode('4'),
-  ];
+  // final List<MenuItem> menuItems = [
+  //   MenuItem.fromCode('106'),
+  //   MenuItem.fromCode('2'),
+  //   MenuItem.fromCode('3'),
+  //   MenuItem.fromCode('4'),
+  // ];
 
   @override
   Widget build(BuildContext context) {
@@ -82,7 +82,7 @@ class KotTableWidget extends StatelessWidget {
     final code = row["code"]!;
 
     final isCodeLocked = false; // Always editable now
-    final menuItem = MenuItem.fromCode(code);
+   // final menuItem = MenuItem.fromCode(code);
 
     return Row(
       children: [
